@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form Task Of Rajkumar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <form action="#">
+            <h2>Registration Form</h2>
+            <label for="username">User Name</label>
+            <input type="text" placeholder="User Name..." id="userName">
+            <span>User name must be greater then 3 and less then 50</span>
+            <label for="email">Email</label>
+            <input type="email" placeholder="e.g abc@gmail.com" id="useremail">
+            <span>Enter Valid Email id</span>
+            <label for="phone">Phone</label>
+            <input type="tel" placeholder="+91 XXXXXXXXXX" id="userphone">
+            <span>Phone number must be less then 10</span>
+            <label for="gender">Gender : </label>
+            <div>
+                <input type="radio" value="Male" name="gender" id="Male">
+                <label for="Male">Male</label>
+            </div>
+
+            <div>
+                <input type="radio" value="Female" name="gender" id="Female">
+                <label for="Female">Female</label>
+            </div>
+
+            <div>
+                <label>City:</label>
+                <input type="checkbox" id="bhadohi" name="city[]" value="Bhadohi" required>
+                <label for="city1">Bhadohi</label>&nbsp;&nbsp;
+                <input type="checkbox" id="Varanasi" name="city[]" value="Varanasi">
+                <label for="city2">Varanasi</label>
+                &nbsp;&nbsp;
+                <input type="checkbox" id="Noida" name="city[]" value="Noida">
+                <label for="city3">Noida</label>
+            </div>
+
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

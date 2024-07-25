@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px 50px;
+}
+
+button{
+    padding: 15px 75px;
+    color: white;
+    border: none;
+    border-radius: 20px 80px 10px 40px / 60px 10px 70px 20px;
+    background-color: rgb(108, 200, 240);
+    font-size: 24px;
+    text-transform: uppercase;
+    cursor:pointer;
+
+}

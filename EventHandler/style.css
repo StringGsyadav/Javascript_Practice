@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 55px;
+    /* background-color: rgb(209, 216, 216); */
+    border-bottom: 1px solid rgb(208, 202, 202);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+background: url('https://www.javascripttutorial.net/wp-content/uploads/2021/04/javascripttutorial.svg');
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 5px;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.links div{
+    background-color: red;
+    cursor: pointer;
+    padding: 10px 20px;
+}
